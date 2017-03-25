@@ -10,4 +10,5 @@ CREATE TABLE `city_code_cn` (
   `PROVINCE` varchar(50) NOT NULL COMMENT '所在省份名称',
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2324 DEFAULT CHARSET=utf8 COMMENT='全国城市表';
+
 2. 项目测试可以根据 CityController 相关定义接口进行请求。如会用 JMeter 可以使用 jmeter 目录中的脚本。
